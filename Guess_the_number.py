@@ -9,6 +9,7 @@ def main():
         GUESS = int(input("Gissa numret mellan 1-100\n"))
         if NUMBER == GUESS:
             print("Du hade rätt!")
+            break
         elif GUESS > NUMBER:
             print("Numret är lägre!")
         else:
