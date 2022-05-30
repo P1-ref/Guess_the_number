@@ -14,7 +14,7 @@ def main():
             print("Numret är lägre!")
         else:
             print("Numret är större!")
-    print("Numret var", NUMBER)
+    print(f"Numret var {NUMBER}")
     CONTINUE = input("Vill du fortsätta?\n").lower()
     main() if CONTINUE == "ja" else quit()
 
